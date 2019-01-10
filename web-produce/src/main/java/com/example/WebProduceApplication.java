@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 
 @SpringBootApplication
-@EnableDiscoveryClient
+@EnableDiscoveryClient  //标识这是一个客户端
 public class WebProduceApplication {
 
     public static void main(String[] args) {

@@ -14,5 +14,5 @@ eureka:
     service-url: #Eureka客户端与Eureka服务端的交互地址，高可用状态配置对方的地址，单机状态配置自己（如果不配置则默认本机8761端口）
       defaultZone: ${EUREKA_SERVER:http://eureka02:8762/eureka/}
   server:
-    enable-self-preservation: false #是否开启自我保护模式
+    enable-self-preservation: false #是否开启自我保护模式，开发阶段可关闭
     eviction-interval-timer-in-ms: 60000 #服务注册表清理间隔（单位毫秒，默认是60*1000）

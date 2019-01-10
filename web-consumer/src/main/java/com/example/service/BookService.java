@@ -3,11 +3,9 @@ package com.example.service;
 import com.example.client.BookClient;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.stereotype.Service;
 
-import java.awt.print.Book;
-import java.util.List;
+
 
 
 @Service
