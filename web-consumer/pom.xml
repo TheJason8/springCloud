@@ -63,6 +63,7 @@
             <artifactId>spring-cloud-starter-hystrix</artifactId>
             <version>1.4.4.RELEASE</version>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -80,6 +81,12 @@
             <version>2.7.0</version>
         </dependency>
 
+        <!--springcloud config的相关配置-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+            <version>1.4.0.RELEASE</version>
+        </dependency>
 
     </dependencies>
 
